@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.1" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_1.xsd">
+    
+    <servlet>
+        <servlet-name>jsp</servlet-name>
+        <servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+        <init-param>
+            <param-name>jstl</param-name>
+            <param-value>/WEB-INF/lib</param-value>
+        </init-param>
+    </servlet>
+    
+    
+    
+    
+    <!-- Servlet pour l'authentification -->
+    <!--<servlet>
+        <servlet-name>AuthServlet</servlet-name>
+        <servlet-class>controller.AuthServlet</servlet-class>
+    </servlet>-->
+
+    <!-- Mappage de l'URL du servlet AuthServlet -->
+    <!--<servlet-mapping>
+        <servlet-name>authServlet</servlet-name>
+        <url-pattern>/authServlet</url-pattern>
+    </servlet-mapping>-->
+
+    <!-- Servlet pour la gestion des rendez-vous -->
+    <!--<servlet>
+        <servlet-name>appointments</servlet-name>
+        <servlet-class>controller.AppointmentServlet</servlet-class>
+    </servlet>-->
+
+    <!-- Mappage de l'URL du servlet AppointmentServlet -->
+    <!--<servlet-mapping>
+        <servlet-name>appointment</servlet-name>
+        <url-pattern>/appointments</url-pattern>
+    </servlet-mapping>-->
+
+    <!-- Servlet pour la gestion des patients -->
+    <!--<servlet>
+        <servlet-name>PatientServlet</servlet-name>
+        <servlet-class>controller.PatientServlet</servlet-class>
+    </servlet>-->
+
+    <!-- Mappage de l'URL du servlet PatientServlet -->
+    <!--<servlet-mapping>
+        <servlet-name>PatientServlet</servlet-name>
+        <url-pattern>/patients</url-pattern>
+    </servlet-mapping>-->
+</web-app>

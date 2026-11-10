@@ -1,0 +1,9 @@
+/build/
+/dist/
+/nbproject/private/
+.env
+*.log
+*.class
+*.war
+*.zip
+
